@@ -48,19 +48,12 @@ So a bright red pixel becomes a medium-dark shade of gray.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rgb-to-grayscale.git
-cd rgb-to-grayscale
+git clone https://github.com/courtcurtain/grayscale.git
+cd grayscale
 ```
 
 ### 2. Install dependencies
 
-If your project uses Pillow:
-
-```bash
-pip install Pillow
-```
-
-Or:
 
 ```bash
 pip install -r requirements.txt
@@ -69,7 +62,7 @@ pip install -r requirements.txt
 ### 3. Run the program
 
 ```bash
-python main.py
+grayscale.py
 ```
 
 Follow the prompts to select your input image and output location.
@@ -109,7 +102,6 @@ The original image remains unchanged while a grayscale version is generated sepa
 ## 🔬 Technologies
 
 - **Python 3**
-- **Pillow** — image processing
 
 ## 📌 Possible Improvements
 
@@ -117,11 +109,9 @@ Some ideas for future versions:
 
 - [ ] Add a graphical user interface
 - [ ] Support batch image conversion
-- [ ] Add drag-and-drop support
 - [ ] Add CLI arguments
-- [ ] Support additional image formats
 - [ ] Add multiple grayscale algorithms
-- [ ] Show conversion progress
+
 
 ## 🤝 Contributing
 
@@ -150,7 +140,7 @@ git push origin feature/my-feature
 
 ## 📜 License
 
-This project is open source. Add your preferred license here, such as **MIT**.
+This project is open source.
 
 ---
 
